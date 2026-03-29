@@ -59,13 +59,13 @@ AWS Lambda costs are based only on the number of invocations and the execution d
 AWS Fargate calculates costs based on the amount of vCPU and memory allocated to a running task, billed per second while the task is active, regardless of whether it is handling traffic or idle.
 
 ```
-30 * 18 * (0.5 * $0.04048 + $0.004445) = $13.3299
+Monthly cost = 30 * 18 * (0.5 * $0.04048 + $0.004445) = $13.3299
 ```
 
 AWS EC2 calculates costs based on the instance type and the time the instance is running, billed per hour, regardless of CPU utilization.
 
 ```
-30 * 18 * $0.0208 = $11.232
+Monthly cost = 30 * 18 * $0.0208 = $11.232
 ```
 
 The following table summarizes the monthly idle cost for each environment.
